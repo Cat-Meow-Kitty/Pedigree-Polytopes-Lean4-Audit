@@ -240,9 +240,6 @@ We initially mislabelled parts of this audit as new discoveries and **retract th
 | File | What it is |
 |---|---|
 | [`AuditReport_Possibly_New_Findings.pdf`](./AuditReport_Possibly_New_Findings.pdf) | The full 9-page report: methodology, per-finding discovery trails with exact commands + expected outputs, prior-art credits, reproduction-from-scratch appendix, limitations |
-| [`Audit.lean`](./Audit.lean) | The 10-line script that produces the `#print axioms` receipts (drop it at the audited repo's root, run `lake env lean Audit.lean`) |
-| [`make_report.py`](./make_report.py) | Generator script for the PDF (Python 3 + `reportlab`), so the report itself is reproducible |
-
 ---
 
 ## Limitations
